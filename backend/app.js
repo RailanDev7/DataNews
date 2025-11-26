@@ -1,6 +1,7 @@
 import express from "express";
 const PORT = 3000
 import router from "./src/routes/auth.js";
+import conexao from "./db.js";
 const app = express();
 
 
